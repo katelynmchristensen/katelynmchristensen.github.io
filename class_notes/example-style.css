@@ -3,3 +3,10 @@ header {
     /*add dimenson so we can see if it works, delete later*/
     height: 30px;
 }
+
+
+
+display: flex;
+flex-flow: row-reverse;
+/* This aligns items to the end line on main-axis */
+justify-content: space-between;
