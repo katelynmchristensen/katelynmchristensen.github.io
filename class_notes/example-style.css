@@ -6,7 +6,3 @@ header {
 
 
 
-display: flex;
-flex-flow: row-reverse;
-/* This aligns items to the end line on main-axis */
-justify-content: space-between;
