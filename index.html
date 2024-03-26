@@ -6,6 +6,26 @@
 
         <title>KC Beading/</title>
         <style>
+      * {
+        margin: 0;
+        margin: 0;
+        padding: 0;
+        font-family: 
+        font-weight: 400;
+        font-style: normal;
+        }
+
+        #wrapper {
+       background-color: #fbf3f3;
+       max-width: 1024px;
+       border: 1px solid #777;
+       /* this centers content, yes this is really weird */
+        margin: 0 auto;
+       }
+    
+       #container {
+        background-image: url(../img/lilywinn.jpg);
+       }
      .header 
      {
     display: flex;
@@ -17,48 +37,15 @@
     align-items: center;
     }
 
-    .wp-block-cover .wp-block-cover__image-background, .wp-block-cover video.wp-block-cover__video-background, .wp-block-cover-image .wp-block-cover__image-background, .wp-block-cover-image video.wp-block-cover__video-background 
-     {
-    border: none;
-    bottom: 0;
-    box-shadow: none;
-    height: 100%;
-    left: 0;
-    margin: 0;
-    max-height: none;
-    max-width: none;
-    object-fit: cover;
-    outline: none;
-    padding: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 100%;
-     }
 
-    .background {
-    background: url(img/lilywinn.jpg);
-    border: none;
-    bottom: 0;
-    box-shadow: none;
-    height: 100%;
-    left: 0;
-    margin: 0;
-    max-height: none;
-    max-width: none;
-    object-fit: cover;
-    outline: none;
-    padding: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 100%;
-    }
+
+
 
         </style>
     </head>
 
     <body>
+      <div id="wrapper">
         <header>
         <div class="header">
         <ul class="navigation">
@@ -67,7 +54,6 @@
             <li><a href="page4.html">Contact</a></li>
             <li><a href="page5.html">About</a></li>
           </ul>
-          <div class="wrapper1">
           <img class=logo src="c:\Users\Katelyn\Downloads\admin-ajax.jpg" alt="Logo" width="250" height="250">
           </div>
           <div class="wrapper2">
@@ -78,8 +64,12 @@
         </div>
     </header>
     <main>
-      <img class="background" src="lilywinn.jpg" alt="lilywinn" width="250" height="250">
-
+      <div id="container">
+        <h1>Custom Designs Made Just for You.</h1>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100..900&display=swap" rel="stylesheet">
+      </div>
     </main>
     </body>
     </html>
