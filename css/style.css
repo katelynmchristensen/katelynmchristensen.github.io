@@ -7,9 +7,9 @@
   }
   
   #wrapper {
-    background-color: #fbf3f3;
+    background-color: #fff;
     max-width: 1024px;
-    border: 1px solid #777;
+    border: 1px solid #fff;
     /* this centers content, yes this is really weird */
     margin: 0 auto;
   }
@@ -20,7 +20,7 @@
   }
   
   header {
-    background-color: #333;
+    background-color: #fff;
     color: #fff;
     padding: 10px 20px;
     display: flex;
@@ -59,30 +59,12 @@
     border-bottom: 1px solid #fff;
   }
   
-  h1,
-  h2,
-  h3,
-  h4,
-  h5 {
-    font-family: "Merriweather", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  h1 {
-    margin: 20px 0;
-  }
-  
-  h1 span {
-    color: #b40808;
-  }
-  
   main {
     margin: 10px;
   }
   
   footer {
-    border-top: 1px dotted #777;
+    border-top: 1px dotted #ffffff;
     text-align: center;
     padding: 20px 10px;
   }
