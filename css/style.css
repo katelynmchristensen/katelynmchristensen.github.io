@@ -58,6 +58,24 @@
   .nav-menu li a:hover {
     border-bottom: 1px solid #000000;
   }
+
+  h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+h1 span {
+  color: #b40808;
+}
   
   main {
     margin: 10px;
