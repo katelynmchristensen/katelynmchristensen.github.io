@@ -24,6 +24,8 @@ header {
   padding: 10px 20px;
   display: flex;
   flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .menu-toggle {
