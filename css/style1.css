@@ -58,26 +58,4 @@
     border-bottom: 1px solid #fff;
   }
 
-  @media (min-width: 768px) {
-  
-    #wrapper {
-      margin: 10px auto;
-    }
-  
-    .menu-toggle {
-      display: none;
-    }
-  
-    .nav-menu {
-      display: block;
-    }
-  
-    .nav-menu menu {
-      display: flex;
-    }
-    
-    .nav-menu li {
-      margin-right: 20px;
-    }
-  }
-  
+
