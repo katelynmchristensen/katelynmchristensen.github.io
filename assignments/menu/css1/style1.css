@@ -8,9 +8,9 @@
 }
 
 #wrapper {
-  background-color: #fbf3f3;
+  background-color: #fff;
   max-width: 1024px;
-  border: 1px solid #777;
+  border: 1px solid #000;
   margin: 0 auto;
 }
 
@@ -19,11 +19,11 @@ menu {
 }
 
 header {
-  background-color: #333;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   padding: 10px 20px;
   display: flex;
-  flex-flow: column;
+  flex-flow: row;
 }
 
 .menu-toggle {
