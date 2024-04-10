@@ -60,6 +60,15 @@ header {
   border-bottom: 1px solid #fff;
 }
 
+::marker{
+  color:#fff;
+  unicode-bidi: isolate;
+  font-variant-numeric: tabular-nums;
+  text-transform: none;
+  text-indent: 0px !important;
+  text-align: start !important;
+  text-align-last: start !important;
+}
 
 @media (min-width: 800px) {
 
