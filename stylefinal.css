@@ -73,6 +73,13 @@
   }
   
   @media (min-width: 800px) {
+    .lilyimage {
+         background-image: url('.lilyimage');
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         background-size: cover;
+          }
+
   
     #wrapper {
       margin: 10px auto;
