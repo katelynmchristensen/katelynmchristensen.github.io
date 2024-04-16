@@ -76,6 +76,10 @@
     background-size: cover;
      }
 
+  .picture {
+    flex-wrap: wrap;
+     }
+
   .tagline{
     font-size: medium;
   }
