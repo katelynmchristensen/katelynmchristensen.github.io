@@ -78,6 +78,9 @@
 
   .picture {
     flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
      }
 
   .tagline{
