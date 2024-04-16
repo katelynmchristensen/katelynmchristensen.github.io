@@ -73,7 +73,6 @@
   .lilyimage {
     background-image: url('./lilyimage.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
      }
 
