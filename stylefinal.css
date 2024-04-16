@@ -70,6 +70,13 @@
     text-align: center;
   }
 
+  .lilyimage {
+    background-image: url('./lilyimage.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+     }
+
   .tagline{
     font-size: medium;
   }
@@ -83,12 +90,12 @@
   }
   
   @media (min-width: 800px) {
-    .lilyimage {
+    /* .lilyimage {
          background-image: url('./lilyimage.jpg');
          background-repeat: no-repeat;
          background-attachment: fixed;
          background-size: cover;
-          }
+          } */
 
   
     #wrapper {
