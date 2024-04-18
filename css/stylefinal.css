@@ -102,33 +102,6 @@
     align-items: center;
   }
 
-  h5{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 1;
-    font-style: small;
-    color:#fff;
-    padding-top: 400px;
-    padding-bottom: 20px;
-    text-align: center;
-  }
-  .one {
-    background-image: url('../img/newarrival1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .two{
-    background-image: url('../img/newarrival2.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .three{
-    background-image: url('../img/newarrival3.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
   .kara {
     display: flex;
     flex-direction: row;
