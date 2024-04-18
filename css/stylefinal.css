@@ -119,6 +119,10 @@
     align-items: center;
   }
 
+  .one{
+    width: 100%;
+  }
+
   .kara {
     display: flex;
     flex-direction: row;
