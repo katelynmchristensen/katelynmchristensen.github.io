@@ -13,13 +13,17 @@
     <header>
       <div class="menu-toggle">&#9776;</div>
       <nav class="nav-menu">
-        <menu>
-          <li><a href="indexmenu.html">Home</a></li>
-          <li><a href="page2.html">Necklaces</a></li>
-          <li><a href="page3.html">Bracelets</a></li>
-          <li><a href="page4.html">Earrings</a></li>
-          <li><a href="page5.html">Cart</a></li>
-        </menu>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul class="menu">
+                <li><a href="indexmenu.html">Home</a></li>
+                <li><a href="page2.html">Necklaces</a></li>
+                <li><a href="page3.html">Bracelets</a></li>
+                <li><a href="page4.html">Earrings</a></li>
+                <li><a href="page5.html">Cart</a></li>   
+            </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
       </nav>
       <div class="logo">
       <img class=logo src="./img/logo.jpg" alt="Logo" width="250" height="250">
