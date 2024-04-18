@@ -73,19 +73,19 @@
     font-weight: 400;
     font-style: normal;
     color:#fff;
-    padding-top: 400px;
+    padding-top: 220px;
     padding-bottom: 20px;
     text-align: center;
   }
 
   h1 {
-    padding:20px;
+    padding-top:20px;
   }
 
   .lilyimage {
     background-image: url('../img/lilyimage.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
      }
 
   .picture {
