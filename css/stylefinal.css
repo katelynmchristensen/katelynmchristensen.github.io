@@ -110,6 +110,14 @@
     align-items: center;
   }
 
+  .katelyn {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
   .button {
     border: none;
     color: #000;
