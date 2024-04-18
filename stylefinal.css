@@ -95,10 +95,10 @@
   }
 
   .newarrival {
-    display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
-    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
     align-items: center;
   }
 
