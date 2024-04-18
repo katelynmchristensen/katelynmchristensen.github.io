@@ -104,6 +104,8 @@
     flex-wrap:wrap;
     justify-content: space-around;
     align-items: center;
+    color:#000;
+    text-decoration: none;
   }
 
   .newarrival {
