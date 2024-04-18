@@ -102,6 +102,30 @@
     align-items: center;
   }
 
+  .one {
+    background-image: url('../img/newarrival1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 400px;
+    padding-bottom: 20px;
+  }
+
+  .two{
+    background-image: url('../img/newarrival2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 400px;
+    padding-bottom: 20px;
+  }
+
+  .three{
+    background-image: url('../img/newarrival3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 400px;
+    padding-bottom: 20px;
+  }
+
   .kara {
     display: flex;
     flex-direction: row;
