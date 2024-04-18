@@ -94,6 +94,14 @@
     align-items: center;
   }
 
+  .newarrival {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
   .tagline{
     font-size: medium;
   }
