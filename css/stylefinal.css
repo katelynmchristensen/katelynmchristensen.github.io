@@ -84,8 +84,8 @@
 
   .lilyimage {
     background-image: url('../img/lilyimage.jpg');
-    background-repeat: no-repeat;
     background-size: contain;
+    background-repeat: no-repeat;
      }
 
   .picture {
