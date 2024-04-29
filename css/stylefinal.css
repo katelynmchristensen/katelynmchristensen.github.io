@@ -161,6 +161,13 @@
     margin: 4px 2px;
     cursor: pointer;
   }
+
+   .earringpage {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+  }
   
   .tagline{
     font-size: medium;
