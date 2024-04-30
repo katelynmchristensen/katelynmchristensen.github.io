@@ -4,7 +4,7 @@ ul {
   
   header {
     background-color: #fff;
-    color: #333;
+    color: #000000;
     padding: 10px 20px;
     display: flex;
     flex-flow: row;
@@ -15,7 +15,7 @@ ul {
   nav {
     display: flex;
     padding: 2% 6%;
-    justify-content: right;
+    justify-content: left;
     align-items: center;
   }
   
@@ -41,7 +41,7 @@ ul {
     content: "";
     width: 0%;
     height: 2px;
-    background-color: #000000;
+    background-color: #ffffff;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -71,7 +71,7 @@ ul {
   
     .nav-links {
       position: absolute;
-      background-color: #000; /*background of list */
+      background-color: #ffffff; /*background of list */
       height: 1000px; 
       width: 200px;
       top: 0;
