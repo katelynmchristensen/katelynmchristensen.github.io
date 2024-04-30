@@ -203,7 +203,7 @@ ul {
     padding: 20px 10px;
   }
   
-  @media (max-width: 800px){
+  @media (max-width: 1500px){
     .nav-links ul li {
       display: block;
       transition: 0.2s;
