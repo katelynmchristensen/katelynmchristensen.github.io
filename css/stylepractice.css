@@ -237,4 +237,16 @@ ul {
       margin: 10px;
       cursor: pointer;
     }
+
+    .one {
+        width:50%;
+    }
+    
+    .two{
+        width: 100%
+      }
+    
+      .three{
+        width: 100%
+      }
   }
