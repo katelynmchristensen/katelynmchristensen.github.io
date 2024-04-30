@@ -82,11 +82,7 @@
     padding-top:20px;
   }
 
-  .lilyimage {
-    background-image: url('../img/lilyimage.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-     }
+   
 
   .picture {
     display:flex;
