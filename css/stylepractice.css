@@ -54,6 +54,138 @@ ul {
   nav .fa {
     display: none; /* removes the menu and x symbol */
   }
+
+  .lilyimage {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .centered {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  h1 {
+    padding-top:20px;
+  }
+
+
+  .picture {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .word {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  a {
+    color:#000;
+    text-decoration: none;
+  }
+
+  .newarrival {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .one{
+    width: 100%;
+  }
+
+  .two{
+    width: 100%
+  }
+
+  .three{
+    width: 100%
+  }
+
+  .kara {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .katelyn {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .button {
+    border: none;
+    color: #000;
+    background-color: #7CB4A7;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+
+   .earringpage {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  .necklaces1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+
+  .bracelets1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  
+  .tagline{
+    font-size: medium;
+  }
+
+
+  footer {
+    background-color:  #7CB4A7;
+    color: #000;
+    text-align: center;
+    padding: 20px 10px;
+  }
   
   @media (max-width: 800px){
     .nav-links ul li {
