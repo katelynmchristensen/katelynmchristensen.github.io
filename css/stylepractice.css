@@ -224,7 +224,7 @@ ul {
       width: 200px;
       top: 0;
       left: 0;
-      bottom: 800px;
+      bottom: 1200px;
       text-align: left;
       z-index: 2; /* prioritizes stacking order */
       transition: 1s;
