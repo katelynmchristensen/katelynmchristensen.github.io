@@ -4,7 +4,7 @@ ul {
   
   header {
     background-color: #fff;
-    color: #000;
+    color: #333;
     padding: 10px 20px;
     display: flex;
     flex-flow: row;
@@ -84,7 +84,7 @@ ul {
   
     nav .fa {
       display: block;
-      color: #000000; /* color of menu and x symbol */
+      color: #000; /* color of menu and x symbol */
       font-size: 1.3rem;
       margin: 10px;
       cursor: pointer;
