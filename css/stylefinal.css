@@ -158,6 +158,7 @@
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    margin-bottom: 30px;
   }
 
    .earringpage {
@@ -200,14 +201,7 @@
   }
   
   @media (min-width: 800px) {
-    /* .lilyimage {
-         background-image: url('./lilyimage.jpg');
-         background-repeat: no-repeat;
-         background-attachment: fixed;
-         background-size: cover;
-          } */
 
-  
     #wrapper {
       margin: 10px auto;
     }
