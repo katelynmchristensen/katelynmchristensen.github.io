@@ -4,10 +4,12 @@ ul {
   
   header {
     background-color: #fff;
-    color: #333; 
+    color: #000;
     padding: 10px 20px;
     display: flex;
-    flex-flow: column;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
   }
   
   nav {
@@ -30,7 +32,7 @@ ul {
   } /* spacing between words when open hamburger */
   
   .nav-links ul li a {
-    color: #6c96b5; 
+    color: #000; 
     text-decoration: none;
     font-size: 1rem;
   } /*menu link color */
@@ -60,7 +62,7 @@ ul {
     } /* hamburger to list*/
   
     .nav-links ul li:hover{
-      border-left: 6px solid #2481c8;
+      border-left: 6px solid #000;
     } /* color on left side of link */
   
     .nav-links ul li ::after {
@@ -69,7 +71,7 @@ ul {
   
     .nav-links {
       position: absolute;
-      background-color: #fff; /*background of list */
+      background-color: #000; /*background of list */
       height: 1000px; 
       width: 200px;
       top: 0;
