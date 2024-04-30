@@ -1,33 +1,44 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-US">
   <head>
+    <!-- does not show in browser -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>Necklaces</title>
-    <link rel="stylesheet" href="./css/stylefinal.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>menu</title>
+    <link rel="stylesheet" href="css/stylepractice.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     </head>
     <body>
-    <header>
-      <div class="menu-toggle">&#9776;</div>
-      <nav class="nav-menu">
-        <menu>
-          <li><a href="indexmenu.html">Home</a></li>
-          <li><a href="page2.html">Necklaces</a></li>
-          <li><a href="page3.html">Bracelets</a></li>
-          <li><a href="page4.html">Earrings</a></li>
-          <li><a href="page5.html">Cart</a></li>
-        </menu>
-      </nav>
-      <div class="logo">
-       <img class=logo src="./img/logo.jpg" alt="Logo" width="250" height="250">
-        </div>
-         <div class="cart">
-         <img class=cart src="./img/cart.jpg" alt="shopping cart" width="50" height="50">
-      </div>
-    </header>
+        <header>
+            <section class="header">
+              <nav>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                  <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="page2.html">Necklaces</a></li>
+                    <li><a href="page3.html">Bracelets</a></li>
+                    <li><a href="page4.html">Earrings</a></li>
+                  </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+              </nav>
+            </section>
+            <div class="logo">
+                <img class=logo src="./img/logo.jpg" alt="Logo" width="250" height="250">
+               </div>
+                <div class="cart">
+                <a class="cart1" href="page5.html">
+                <img class=cart src="./img/cart.jpg" alt="shopping cart" width="50" height="50">
+                </a>
+                </div>
+              </header>
     <main>
       <div class="necklaces1">
         <img class="necklace1" src="./img/necklace1.jpg" alt="necklace1" width="200" height="200">
@@ -56,5 +67,6 @@
         <a href="page4.html">About Us</a>
       </div>
     </footer>
+    <script src="js/script.js"></script>
     </body>
 </html>
