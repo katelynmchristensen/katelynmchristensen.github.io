@@ -177,6 +177,15 @@
     align-content: center;
     align-items: center;
   }
+
+  .bracelets1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
   
   .tagline{
     font-size: medium;
