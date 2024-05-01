@@ -71,6 +71,10 @@ ul {
     display: none; /* removes the menu and x symbol */
   }
 
+  #cart {
+    width: 30%;
+  }
+
   .lilyimage {
     position: relative;
     text-align: center;
