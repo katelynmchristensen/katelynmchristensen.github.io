@@ -79,11 +79,6 @@ ul {
   }
 
 
-  .lilyimage {
-    position: relative;
-    text-align: center;
-  }
-
   .centered {
     position: absolute;
     top: 85%;
@@ -266,6 +261,12 @@ ul {
     z-index: 2; /* prioritizes stacking order */
     transition: 1s;
     display: none;
+  }
+
+  .lilyimage {
+    position: relative;
+    text-align: center;
+    width: 100%;
   }
   
   @media (max-width: 800px){
