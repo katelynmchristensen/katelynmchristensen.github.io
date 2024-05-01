@@ -202,12 +202,14 @@ ul {
     text-align: center;
     padding: 20px 10px;
   }
+
+  .nav-links ul li {
+    display: block;
+    transition: 0.2s;
+  } /* hamburger to list*/
   
-  @media (max-width: 1500px){
-    .nav-links ul li {
-      display: block;
-      transition: 0.2s;
-    } /* hamburger to list*/
+  @media (max-width: 800px){
+
   
     .nav-links ul li:hover{
       border-left: 6px solid #000;
