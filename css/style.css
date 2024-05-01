@@ -82,7 +82,6 @@ ul {
   .lilyimage {
     position: relative;
     text-align: center;
-    width: 100%;
   }
 
   .centered {
@@ -90,6 +89,7 @@ ul {
     top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 100%;
   }
 
   h1 {
