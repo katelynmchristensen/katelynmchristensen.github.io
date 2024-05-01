@@ -207,6 +207,14 @@ ul {
     display: block;
     transition: 0.2s;
   } /* hamburger to list*/
+
+  nav .fa {
+    display: block;
+    color: #000; /* color of menu and x symbol */
+    font-size: 1.3rem;
+    margin: 10px;
+    cursor: pointer;
+  }
   
   @media (max-width: 800px){
 
@@ -232,14 +240,7 @@ ul {
       transition: 1s;
       display: none;
     }
-  
-    nav .fa {
-      display: block;
-      color: #000; /* color of menu and x symbol */
-      font-size: 1.3rem;
-      margin: 10px;
-      cursor: pointer;
-    }
+
 
     .one {
         width:50%;
