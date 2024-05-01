@@ -210,6 +210,8 @@ ul {
     flex-direction: column;
     align-content: center;
     align-items: center; 
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   .tagline{
