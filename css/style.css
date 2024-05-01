@@ -239,32 +239,29 @@ ul {
     cursor: pointer;
   }
   
+  .nav-links ul li:hover{
+    border-left: 6px solid #000;
+  } /* color on left side of link */
+
+  .nav-links ul li ::after {
+    display: none;
+  }
+
+  .nav-links {
+    position: absolute;
+    background-color: #fff; /*background of list */
+    height: 1000px; 
+    width: 200px;
+    top: 0;
+    left: 0;
+    bottom: 1200px;
+    text-align: left;
+    z-index: 2; /* prioritizes stacking order */
+    transition: 1s;
+    display: none;
+  }
+  
   @media (max-width: 800px){
-
-  
-    .nav-links ul li:hover{
-      border-left: 6px solid #000;
-    } /* color on left side of link */
-  
-    .nav-links ul li ::after {
-      display: none;
-    }
-  
-    .nav-links {
-      position: absolute;
-      background-color: #fff; /*background of list */
-      height: 1000px; 
-      width: 200px;
-      top: 0;
-      left: 0;
-      bottom: 1200px;
-      text-align: left;
-      z-index: 2; /* prioritizes stacking order */
-      transition: 1s;
-      display: none;
-    }
-
-
     .one {
         width:100%;
     }
