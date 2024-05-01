@@ -116,6 +116,14 @@ ul {
     width:25%;
   }
 
+  .bracelet {
+    width: 25%;
+  }
+
+  .earring {
+    width: 25%;
+  }
+
   .newarrival {
     display: flex;
     flex-direction: column;
