@@ -198,11 +198,38 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+  }
+
+  .wrap1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center; 
+  }
+  
+  .wrap2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     flex-direction: column;
     align-content: center;
     align-items: center;
   }
-  
+
+  .wrap3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center; 
+  }
+
   .tagline{
     font-size: medium;
   }
