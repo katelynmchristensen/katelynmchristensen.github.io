@@ -121,15 +121,15 @@ ul {
   }
 
   .one{
-    width: 100%;
+    width: 50%;
   }
 
   .two{
-    width: 100%
+    width: 50%
   }
 
   .three{
-    width: 100%
+    width: 50%
   }
 
   .kara {
@@ -243,7 +243,7 @@ ul {
 
 
     .one {
-        width:50%;
+        width:100%;
     }
 
     .two{
