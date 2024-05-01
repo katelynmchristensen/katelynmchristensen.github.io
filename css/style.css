@@ -82,6 +82,7 @@ ul {
   .lilyimage {
     position: relative;
     text-align: center;
+    width: 100%;
   }
 
   .centered {
