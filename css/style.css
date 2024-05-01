@@ -112,6 +112,10 @@ ul {
     text-decoration: none;
   }
 
+  .necklace {
+    width:25%;
+  }
+
   .newarrival {
     display: flex;
     flex-direction: column;
