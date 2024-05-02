@@ -268,7 +268,7 @@ ul {
   }
   
   @media (max-width: 800px){
-    .one {
+    #one {
         width:100%;
     }
 
