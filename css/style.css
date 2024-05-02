@@ -42,7 +42,7 @@ ul {
   }
   
   .nav-links {
-    flex: 1;
+    flex: 1; /*default for growing and shrinking*/
     text-align: right;
   }
   
@@ -82,7 +82,7 @@ ul {
     position: absolute;
     top: 85%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); /*where it is on the page*/
   }
 
   h1 {
